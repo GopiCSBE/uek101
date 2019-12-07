@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  background: url("../Img/Bc.jpg");
 }
 
 /* nav start */
@@ -37,11 +38,20 @@ body {
 
 /* handburger Manu  */
 .bar1,
-.bar2,
+
 .bar3 {
   width: 35px;
   height: 5px;
   background-color: #ffffff;
+  margin: 6px;
+  transition: 0.4s;
+}
+
+.bar2{
+
+  width: 35px;
+  height: 5px;
+  background-color: #80002c;
   margin: 6px;
   transition: 0.4s;
 }
@@ -99,3 +109,65 @@ h1 {
     left: calc(50vw - 150px);
     /* center end */
 }
+
+#Gitt{
+
+  position: relative;
+    left: calc(50vw - 150.5px);
+    border-style: groove;
+    
+}
+
+
+/* Für P */
+
+p{
+
+padding-left: 25%;
+padding-right: 25%;
+text-align: center;
+background-color: rgba(555, 0, 0, 0.28);
+padding: 4px;
+
+}
+
+#Z{
+  position: relative;
+  left: calc(50vw - 184.8px);
+  height: 480px;
+  width: 480px,640px;
+  border: 5px;
+  border-style: solid;
+ 
+}
+h1{
+
+  padding: 5px;
+  text-align: center;
+  border-style: groove;
+  background-color: rgba(255, 158, 192, 0.4);
+}
+
+#G{
+
+  position: relative;
+  left: calc(50vw - 164px);
+  height: 480px;
+  width: 480px,640px;
+  border: 5px;
+  border-style: solid;
+}
+
+
+
+#D{
+
+  position: relative;
+  left: calc(50vw - 173px);
+  height: 480px;
+  width: 480px,640px;
+  border: 5px;
+  border-style: solid;
+}
+
+
